@@ -1,0 +1,46 @@
+*{
+    margin: 10px ;
+    text-align: center;
+    
+}
+body{
+
+background-color:  rgb(187, 181, 187);
+    margin-top: 50px;
+    margin:  0;
+    padding: 0;
+    background-size: cover;
+    
+
+}
+.grid-container{
+     border-radius: 5%;
+    margin: auto;
+    border: 2px solid grey;
+    backdrop-filter: blur(1rem);
+    width: 500px;
+    color: black;
+    text-align: center;
+    box-shadow:10px 10px 10px rgb(42, 41, 41);
+    
+    
+    background-color: rgb(148, 138, 148);
+    display: grid;
+}
+.month-year{
+    font-size: 25px;
+}
+.week-days ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color: rgb(207, 197, 197);
+}
+.days ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 25px;
+    margin:10px ;
+    padding: 5 px;
+}
